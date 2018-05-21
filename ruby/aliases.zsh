@@ -1,3 +1,6 @@
 alias sc='script/console'
 alias sg='script/generate'
 alias sd='script/destroy'
+alias bx='bundle exec'
+alias migrate='bx rake db:migrate db:rollback && bx rake db:migrate db:test:prepare'
+alias b='bundle'

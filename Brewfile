@@ -5,39 +5,40 @@ tap 'puma/puma'
 
 brew 'ack'
 brew 'coreutils'
-brew 'go'
-brew 'grc'
 brew 'imagemagick'
-brew 'jp2a'
-brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
 brew 'openssl'
 brew 'node'
 brew 'readline'
 brew 'postgresql'
-brew 'puma/puma/puma-dev'
 brew 'ruby-build'
 brew 'rbenv'
-brew 'roundup'
 brew 'spaceman-diff'
-brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'yarn'
-brew 'youtube-dl'
+brew 'git'
+brew 'npm'
 
 cask '1password'
 cask 'adium'
 cask 'atom'
 cask 'firefox'
-cask 'garmin-express'
 cask 'google-chrome'
-cask 'handbrake'
-cask 'mapbox-studio'
-cask 'seashore'
-cask 'slack'
-cask 'steam'
 cask 'transmission'
-cask 'tunnelbear'
 cask 'vlc'
+cask 'mamp'
+cask 'sequel-pro'
+cask 'alfred'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'docker'
+cask 'fantastical'
+
+mas 'Slack', id: 803453959
+mas 'Bear', id: 1091189122
+mas 'Numbers', id: 409203825
+mas 'Delicious Library 3', id: 635124250
+mas 'Keynote', id: 409183694
+mas 'IP Scanner Home', id: 422293948
+mas 'Tweetbot', id: 557168941
